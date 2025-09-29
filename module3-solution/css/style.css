@@ -1,0 +1,67 @@
+/* Background for the tall section */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.section-box {
+  background-color: #ddd; /* light gray, like mockup */
+  padding: 15px;
+  height:1000px;
+  margin-bottom: 30px;
+}
+.navbar-default {
+  background-color: #ddd;
+  border: 0px;
+}
+.navbar-collapse.collapse {
+   display: none!important; 
+}
+.navbar-default .navbar-toggle {
+  border-color: #000;
+  border-width: 2px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.navbar-default .navbar-brand {
+  color: #000;
+  font-size: 28px;
+}
+.navbar-nav {
+  margin: 0px -15px;
+}
+ul.nav.navbar-nav {
+  background: #fff;
+  border: 1px solid #000;
+}
+ul.nav.navbar-nav li{
+  border-bottom: 1px solid #000;
+  text-align: center;
+  color: #000;
+  font-weight:600;
+}
+ul.nav.navbar-nav li:last-child{
+  border-bottom: 0px solid #000;
+}
+
+.navbar-default .navbar-toggle.toggled-open {
+  border-color: #f7f7f7 !important;
+  border-width: 2px;
+}
+.navbar-default .navbar-toggle.toggled-open .icon-bar {
+  background-color: #f7f7f7 !important;
+}
+.page-title h2{
+  font-weight:bold;
+  padding-bottom: 30px;
+}
+@media (max-width: 767px) {
+  .navbar-collapse.collapse.in {
+    display: block!important; 
+ }
+ .section-box {
+  height: auto;
+}
+}
