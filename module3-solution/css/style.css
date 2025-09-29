@@ -1,11 +1,14 @@
-/* Background for the tall section */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: Arial, sans-serif;
+  color: #000;
+}
 .section-box {
-  background-color: #ddd; /* light gray, like mockup */
+  background-color: #ddd; 
   padding: 15px;
   height:1000px;
   margin-bottom: 30px;
@@ -44,14 +47,6 @@ ul.nav.navbar-nav li{
 }
 ul.nav.navbar-nav li:last-child{
   border-bottom: 0px solid #000;
-}
-
-.navbar-default .navbar-toggle.toggled-open {
-  border-color: #f7f7f7 !important;
-  border-width: 2px;
-}
-.navbar-default .navbar-toggle.toggled-open .icon-bar {
-  background-color: #f7f7f7 !important;
 }
 .page-title h2{
   font-weight:bold;
